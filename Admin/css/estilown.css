@@ -1,0 +1,49 @@
+/* INDEX.HTML  */
+body {
+	/*font: .8em "Lucida Sans", "Trebuchet MS", Verdana, Arial, Sans-Serif;*/
+	background-color : #4f4f97;
+	color: white;
+}
+
+form{
+	padding: 10px;
+	color: #999;
+	border-radius: 10px	;
+	background: white;
+	margin: 0 auto;
+	width: 40%;
+	height: 80%;
+}
+
+#error_message{ /*ocultar desde ID*/
+
+	display:none; /*mantener oculto por defecto*/
+
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	margin: 5px 5px;
+	padding:15px 10px 15px 20px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+} 
+
+#error_message_correo{
+	display:none;
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	padding:8px 8px 8px 8px;
+}
+
+#error_message_password{
+	display:none;
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	padding:8px 8px 8px 8px;
+}
+
+#error_message_archivo{
+	display:none;
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	padding:8px 8px 8px 8px;
+}

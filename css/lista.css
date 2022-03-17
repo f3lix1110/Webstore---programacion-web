@@ -1,0 +1,106 @@
+
+	body{background-image: url("fondo1.jpg");}
+
+/*INICIO*/
+    .table_1{
+      width: 50%;
+      height: 300px;
+      text-align: center;
+      background-color: orange;
+      color: black;
+      font-size: 200%;
+    }
+
+/*CARRITO*/
+
+.fondo2{
+	background-image: url("fondo5.jpg");
+    width:60%;
+    height: 300%;
+    border: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+/*PRODUCTOS*/
+
+    .cuadro{
+    background-color : black;
+    width:20%;
+    height: 300px;
+    border: solid;
+    margin: 2%;
+    float: left; /* PARA LANZARLOS HACIA UN LADO*/
+    }
+        
+    .fondo{
+	background-image: url("fondo2.jpg");
+    width:60%;
+    height: 300%;
+    border: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .imagen{
+    background-color : grey;
+    width: 89%;
+    height: 100px;
+    border: solid;
+    margin: 4%;
+    }
+
+    .texto{
+    background-color : black;
+    width: 89%;
+    height: 20px;
+    border: solid;
+    margin: 4%;
+    color: white;
+    }
+	
+	
+/*LOGIN*/	
+	
+form{
+	padding: 10px;
+	color: #999;
+	border-radius: 10px	;
+	background: white;
+	margin: 0 auto;
+	width: 40%;
+	height: 80%;
+}
+
+#error_message{ /*ocultar desde ID*/
+
+	display:none; /*mantener oculto por defecto*/
+
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	margin: 5px 5px;
+	padding:15px 10px 15px 20px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+} 
+
+#error_message_correo{
+	display:none;
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	padding:8px 8px 8px 8px;
+}
+
+#error_message_password{
+	display:none;
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	padding:8px 8px 8px 8px;
+}
+
+#error_message_archivo{
+	display:none;
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	padding:8px 8px 8px 8px;
+}

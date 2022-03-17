@@ -1,0 +1,20 @@
+/* LISTA_ADMINISTRADOR.PHP  */
+
+body {
+	
+	font: .15em;
+	background-color : #4f4f97;
+	color: white;
+}
+
+.tabla{
+	background: grey;
+}
+
+
+.error{
+	display:none;
+	background-color: #FFBABA;color: #9F6000;
+	border: 1px solid;
+	padding:2px 2px 2px 2px;
+}
